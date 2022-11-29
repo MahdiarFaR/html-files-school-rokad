@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کبیر وب</title>
+    <link rel="icon" href="">
+</head>
+
+<body style="border: 50in thick ;text-align: center;">
+
+    <p style="font-size: 50px ;">login page :</p>
+    <form>
+
+        <fieldset>
+            <legend>login form: </legend>
+            <label for="st">email user: </label> <input type="email" id="st" name="email" size="30" autofocus>
+            <br><br>
+            <label for="sh">telephone : </label> <input type="tel" id="sh" name="tel" maxlength="6"
+                placeholder="شماره خود را وارد کنید">
+            <br><br>
+            <label for="us"> username :</label> <input type="text" value="test" id="us" name="user" required>
+            <br><br>
+            <label for="usa"> password :</label> <input type="password" id="usa" name="pass" disableds>
+            <br><br>
+            <label for="ft">number :</label> <input type="number" name="number" id="ft" maxlength="11">
+            <br><br>
+            <label for="gg">save your password?</label> <input type="checkbox" id="gg" name="save">
+            <br><br>
+            <input type="color" id="color" name="color">
+            <br><br>
+            <label for="os">range value :</label> <input type="range" name="range" id="os">
+            <br><br>
+            <label for="lo">file :</label> <input type="file" name="file" id="lo">
+            <br><br>
+            <label for="gk">your websit :</label> <input type="url" name="url" id="gk">
+            <br><br>
+            <label for="we"> week :</label> <input type="week" id="we" name="week">
+            <br><br>
+            <label for="da">date :</label> <input type="date" id="da" name="date">
+            <br><br>
+            <label for="ti">time :</label> <input type="time" id="ti" name="time">
+
+            <br><br><br>
+            <input type="submit" value="login">
+            <input type="reset" value="reset">
+            <input type="button" value="help" onclick="alert(' t.me/ilooshah جهت ارتباط با پشتیبانی پیام بدید')">
+        </fieldset>
+        <hr>
+        <label>male</label> <input type="radio" name="gender" value="male" checked>
+        <br>
+        <label>female</label> <input type="radio" name="gender" value="female">
+        <hr>
+        <p>
+        <h1>ایا از سایت ما راضی هستید ؟</h1>
+        </p>
+        <label>عالی</label> <input type="radio" name="nazar" value="عالی">
+        <label>خوب</label> <input type="radio" name="nazar" value="خوب">
+        <label>بد</label> <input type="radio" name="nazar" value="بد" checked>
+        <hr>
+        <h1>
+            <label for="sr">شهر خود را انتخاب کنید ؟</label>
+            <select name="sr" id="sr">
+                <option value="mshd">مشهد</option>
+                <option value="teh">تهران</option>
+                <option value="shz">شیراز</option>
+                <option value="esf">اصفهان</option>
+            </select>
+        </h1>
+        <hr>
+        <h1>
+            <label for="cx">زمان را انتخاب کنید</label>
+            <select name="روز" id="cx">
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+               <option value="11">11</option>
+               <option value="12">12</option>
+               <option value="13">13</option>
+               <option value="14">14</option>
+               <option value="15">15</option>
+               <option value="16">16</option>
+               <option value="17">17</option>
+               <option value="18">18</option>
+               <option value="19">19</option>
+               <option value="20">20</option>
+               <option value="21">21</option>
+               <option value="22">22</option>
+               <option value="23">23</option>
+               <option value="24">24</option>
+               <option value="25">25</option>
+               <option value="26">26</option>
+               <option value="27">27</option>
+               <option value="28">28</option>
+               <option value="29">29</option>
+               <option value="30">30</option>
+            </select>
+            <select name="mah">
+                <option value="f">فروردین</option>
+                <option value="o">اردیبهشت</option>
+                <option value="kh">خرداد</option>
+                <option value="tir">تیر</option>
+                <option value="mo">مرداد</option>
+                <option value="sh">شهریور</option>
+                <option value="mhr">مهر</option>
+                <option value="ab">ابان</option>
+                <option value="az">اذر</option>
+                <option value="dy">دی</option>
+                <option value="bh">بهمن</option>
+                <option value="es">اسفند</option>
+            </select>
+        </h1>
+        <hr>
+        <h1><label for="cz">بهترین کشور از نظر شما</label>
+            <select name="keshvar" id="cz">
+                <optgroup label="قاره امریکا">
+                    <option value="usa">امریکا</option>
+                    <option value="arj">آرژانتین</option>
+                </optgroup>
+                <Optgroup label="قاره اسیا">
+                    <option value="ir">ایران</option>
+                    <option value="iq">عراق</option>
+                    <option value="arb">عربستان</option>
+                </Optgroup>
+                <optgroup label="قاره افریقا">
+                    <option value="nij">نیجریه</option>
+                    <option value="atiop">اتیوپی</option>
+                    <option value="mesr">مصر</option>
+                </optgroup>
+            </select>
+        </h1>
+        <h1><a href="C:\Users\Arefeh\Desktop/ggs.html">جهت پر کردن فرم استخدام کیک کنید</a></h1>
+</body>
+</html>
